@@ -1,0 +1,22 @@
+body{
+    background-image: url('https://png.pngtree.com/background/20220726/original/pngtree-colorful-umbrella-on-light-yellow-background-picture-image_1800237.jpg');
+    font-family: 'Dancing Script', cursive;
+        background-size:2000px;
+}
+.tengah{
+    text-align: center;
+}
+.table{
+    display: flex;
+    justify-content: center;
+}
+td{
+    color: blue;
+}
+td{
+    color: rgb(0, 204, 255);
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.tengah{
+text-align: center;    
+}
