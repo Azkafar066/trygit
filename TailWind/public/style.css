@@ -544,8 +544,109 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
+.h-\[1000px\] {
+  height: 1000px;
+}
+
+.h-\[100px\] {
+  height: 100px;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[1000\] {
+  height: 1000;
+}
+
+.w-\[500px\] {
+  width: 500px;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+
+.bg-\[url\(\.\.\/public\/kucing\.jpeg\)\] {
+  background-image: url(../public/kucing.jpeg);
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-kucing {
+  background-image: url("../public/kucing.jpeg");
+}
+
+.bg-logoalnassr {
+  background-image: url("../public/alnassr .jpg");
+}
+
+.bg-oyen {
+  background-image: url("../public/oyen.jpeg");
+}
+
+.from-indigo-500 {
+  --tw-gradient-from: #6366f1 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(99 102 241 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-green-50 {
+  --tw-gradient-from: #f0fdf4 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(240 253 244 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-10\% {
+  --tw-gradient-from-position: 10%;
+}
+
+.via-blue-400 {
+  --tw-gradient-to: rgb(96 165 250 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #60a5fa var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.via-80\% {
+  --tw-gradient-via-position: 80%;
+}
+
+.to-indigo-500 {
+  --tw-gradient-to: #6366f1 var(--tw-gradient-to-position);
+}
+
+.to-red-500 {
+  --tw-gradient-to: #ef4444 var(--tw-gradient-to-position);
+}
+
+.to-10\% {
+  --tw-gradient-to-position: 10%;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-local {
+  background-attachment: local;
+}
+
+.bg-left {
+  background-position: left;
 }
 
 .text-justify {
@@ -569,6 +670,10 @@ video {
   line-height: 1;
 }
 
+.text-agakbesar {
+  font-size: 102px;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -580,9 +685,4 @@ video {
 .text-neutral-400 {
   --tw-text-opacity: 1;
   color: rgb(163 163 163 / var(--tw-text-opacity));
-}
-
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
