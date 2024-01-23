@@ -9,7 +9,8 @@ module.exports = {
       logoalnassr:'url("../public/alnassr\ .jpg")',
       },
       fontFamily:{
-        'Lobster':'Lobster'
+        'Lobster':'Lobster',
+       'Dancing' :'Dancing', 
       },
       fontSize:{
      agakbesar:"102px"   
