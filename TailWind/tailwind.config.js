@@ -7,6 +7,7 @@ module.exports = {
      kucing:'url("../public/kucing.jpeg")', 
      oyen:'url("../public/oyen.jpeg")',
       logoalnassr:'url("../public/alnassr\ .jpg")',
+      FCBarcelona:'url("../public/FCBarcelona.png")',
       },
       fontFamily:{
         'Lobster':'Lobster',
