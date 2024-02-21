@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Hover -->
+    <div
+      class="h-[100px] w-[100] bg-blue-600 hover:bg-sky-500 hover:text-yellow-500"
+    ></div>
+    <button class="ml-40 mt-20 bg-sky-700 hover:text-yellow-600">
+      Save changes
+    </button>
+    <!-- Active -->
+    <button class="bg-sky-400 active:bg-yellow-500">Save changes</button>
+    <!-- Focus -->
+    <button class="bg-sky-900 focus:bg-yellow-300">Save changes</button>
+    <!--Styling based on parent state  -->
+    <div class="group mx-auto mt-20 h-40 w-40 bg-black pt-5">
+      <div
+        class="mx-auto h-20 w-20 bg-sky-400 group-active:bg-yellow-400"
+      ></div>
+    </div>
+    <!-- direct children -->
+    <div
+      class="mt-20 flex justify-evenly bg-yellow-500/75 *:h-20 *:w-20 *:bg-green-600 *:mt-10"
+    >
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="mb-10"></div>
+
+    <form action="">
+      <label for="">ID</label>
+      <br />
+      <input disabled type="email" class="rounded required:border-red-500 required:border-2" />
+    </form>
+
+    <div class="mb-40"></div>
+  </body>
+</html>

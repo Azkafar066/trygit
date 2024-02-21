@@ -11,6 +11,7 @@ module.exports = {
         FCBarcelona: 'url("../public/FCBarcelona.png")',
         TarraBudiman: 'url("../public/TarraBudiman.jpg")',
         priadewasa: 'url("../public/priadewasa.jpg")',
+        vecteezymountain:'url("../public/vecteezymountain.jpg")',
       },
       fontFamily: {
         Lobster: "Lobster",
