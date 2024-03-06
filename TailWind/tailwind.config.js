@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class",
   content: ["./public/**/*.{html,js}"],
   theme: {
     extend: {
@@ -12,8 +13,9 @@ module.exports = {
         TarraBudiman: 'url("../public/TarraBudiman.jpg")',
         priadewasa: 'url("../public/priadewasa.jpg")',
         vecteezymountain: 'url("../public/vecteezymountain.jpg")',
-        illustrationvecteezymountain:'url("../public/-illustrationvecteezymountain.jpg")',
-        mountain:'url("../public/mountain.jpg")',
+        illustrationvecteezymountain:
+          'url("../public/-illustrationvecteezymountain.jpg")',
+        mountain: 'url("../public/mountain.jpg")',
       },
       fontFamily: {
         Lobster: "Lobster",
