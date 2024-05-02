@@ -7,10 +7,10 @@ module.exports = {
 ],
   theme: {
     extend: {
-      backgroundImage: {
+      backgroundImage: { 
+       FastFood:'url("../public/FastFood.jpg")', 
         logoabudzar:'url("../public/logoabudzar.png")',
         kucing: 'url("../public/kucing.jpeg")',
-       CheeseBurger:'url("../public/CheeseBurger.jpg")',
         summerbeach:'("../public/summerbeach.png")',
         oyen: 'url("../public/oyen.jpeg")',
         logoalnassr: 'url("../public/alnassr .jpg")',
@@ -21,19 +21,14 @@ module.exports = {
         illustrationvecteezymountain:
           'url("../public/-illustrationvecteezymountain.jpg")',
         mountain: 'url("../public/mountain.jpg")',
+        Cheeseburger:'url("../public/Cheeseburger.jpg")',
       },
       fontFamily: {
-        
-        Quando:"Quando",
-        SansitaSwashed:"Sansita swashed",
-        BungeeSpice:"Bungee Spice",
-        MadimiOne:"Madimi One",
-        K2D:"k2D",
-        ShantellSans:"Shantell Sans", 
-        Honk: "Honk",
+       Honk:"Honk", 
         Lobster: "Lobster",
         Dancing: "Dancing",
         Honk: "Honk",
+        Sevillana:"Sevillana", 
       },
       fontSize: {
         agakbesar: "102px",
