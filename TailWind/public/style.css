@@ -630,6 +630,10 @@ video {
   z-index: 1;
 }
 
+.col-start-3 {
+  grid-column-start: 3;
+}
+
 .float-left {
   float: left;
 }
@@ -746,6 +750,10 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-11 {
+  margin-top: 2.75rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -758,12 +766,24 @@ video {
   margin-top: 1rem;
 }
 
+.mt-40 {
+  margin-top: 10rem;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.-mt-12 {
+  margin-top: -3rem;
 }
 
 .block {
@@ -792,6 +812,10 @@ video {
 
 .h-10 {
   height: 2.5rem;
+}
+
+.h-11 {
+  height: 2.75rem;
 }
 
 .h-14 {
@@ -882,28 +906,8 @@ video {
   height: full;
 }
 
-.h-\[\] {
-  height: ;
-}
-
-.h-\[40\] {
-  height: 40;
-}
-
-.h-\[40p\] {
-  height: 40p;
-}
-
-.h-\[100\] {
-  height: 100;
-}
-
-.h-\[100p\] {
-  height: 100p;
-}
-
-.h-\[140px\] {
-  height: 140px;
+.h-56 {
+  height: 14rem;
 }
 
 .w-1 {
@@ -912,6 +916,10 @@ video {
 
 .w-10 {
   width: 2.5rem;
+}
+
+.w-11 {
+  width: 2.75rem;
 }
 
 .w-14 {
@@ -998,10 +1006,6 @@ video {
   width: 100%;
 }
 
-.w-\[\] {
-  width: ;
-}
-
 .min-w-24 {
   min-width: 6rem;
 }
@@ -1078,6 +1082,18 @@ video {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-row-reverse {
   flex-direction: row-reverse;
 }
@@ -1090,6 +1106,14 @@ video {
   flex-wrap: wrap;
 }
 
+.place-content-center {
+  place-content: center;
+}
+
+.content-end {
+  align-content: flex-end;
+}
+
 .items-center {
   align-items: center;
 }
@@ -1100,6 +1124,14 @@ video {
 
 .justify-evenly {
   justify-content: space-evenly;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .-space-x-14 > :not([hidden]) ~ :not([hidden]) {
@@ -1397,8 +1429,22 @@ video {
   background-color: rgb(234 179 8 / 0.75);
 }
 
+.bg-red-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+}
+
+.bg-red-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
+}
+
+.bg-Cheeseburger {
+  background-image: url("../public/Cheeseburger.jpg");
 }
 
 .bg-FCBarcelona {
@@ -1415,6 +1461,10 @@ video {
 
 .bg-\[url\(\.\.\/public\/kucing\.jpeg\)\] {
   background-image: url(../public/kucing.jpeg);
+}
+
+.bg-chalkboard {
+  background-image: url("../public/chalkboard.jpg");
 }
 
 .bg-gradient-to-r {
@@ -1455,10 +1505,6 @@ video {
 
 .bg-vecteezymountain {
   background-image: url("../public/vecteezymountain.jpg");
-}
-
-.bg-Cheeseburger {
-  background-image: url("../public/Cheeseburger.jpg");
 }
 
 .from-green-50 {
@@ -1600,10 +1646,6 @@ video {
   padding: 1.25rem;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -1682,6 +1724,11 @@ video {
   font-family: Sevillana;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-9xl {
   font-size: 8rem;
   line-height: 1;
@@ -1744,22 +1791,6 @@ video {
 .text-yellow-500 {
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
-}
-
-.text-\[font\] {
-  color: font;
-}
-
-.text-\[fontb\] {
-  color: fontb;
-}
-
-.text-\[28\] {
-  color: 28;
 }
 
 .opacity-0 {
@@ -1899,9 +1930,33 @@ video {
   width: 5rem;
 }
 
+.\*\:w-2 > * {
+  width: 0.5rem;
+}
+
 .\*\:bg-green-600 > * {
   --tw-bg-opacity: 1;
   background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+}
+
+.\*\:bg-sky-300 > * {
+  --tw-bg-opacity: 1;
+  background-color: rgb(125 211 252 / var(--tw-bg-opacity));
+}
+
+.\*\:bg-blue-300 > * {
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
+}
+
+.\*\:bg-blue-500 > * {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.\*\:bg-yellow-300 > * {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 224 71 / var(--tw-bg-opacity));
 }
 
 .first-letter\:float-left::first-letter {
@@ -2255,25 +2310,12 @@ video {
     visibility: visible;
   }
 
-  .md\:invisible {
-    visibility: hidden;
-  }
-
-  .md\:hidden {
-    display: none;
-  }
-
   .md\:w-40 {
     width: 10rem;
   }
 
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .md\:bg-black {
-    --tw-bg-opacity: 1;
-    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
   }
 }
 

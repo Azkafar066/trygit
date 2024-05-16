@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: { 
+      chalkboard:'url("../public/chalkboard.jpg")',
        FastFood:'url("../public/FastFood.jpg")', 
         logoabudzar:'url("../public/logoabudzar.png")',
         kucing: 'url("../public/kucing.jpeg")',
@@ -22,6 +23,7 @@ module.exports = {
           'url("../public/-illustrationvecteezymountain.jpg")',
         mountain: 'url("../public/mountain.jpg")',
         Cheeseburger:'url("../public/Cheeseburger.jpg")',
+
       },
       fontFamily: {
        Honk:"Honk", 
