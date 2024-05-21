@@ -7,7 +7,7 @@ module.exports = {
 ],
   theme: {
     extend: {
-      backgroundImage: { 
+      backgroundImage: {
       chalkboard:'url("../public/chalkboard.jpg")',
        FastFood:'url("../public/FastFood.jpg")', 
         logoabudzar:'url("../public/logoabudzar.png")',
@@ -23,6 +23,7 @@ module.exports = {
           'url("../public/-illustrationvecteezymountain.jpg")',
         mountain: 'url("../public/mountain.jpg")',
         Cheeseburger:'url("../public/Cheeseburger.jpg")',
+        RealMadridCF:'url("../public/RealMadridCF.png")',
 
       },
       fontFamily: {
