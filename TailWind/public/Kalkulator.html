@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="h-96 w-60 bg-blue-400 rounded-lg mx-auto">
+      <h1 class="font-SevillanaStatic text-center">Simple Calculator</h1>
+      <div class="flex justify-center">
+        <input
+          type="text"
+          id="input1"
+          placeholder="Masukkan angka pertama"
+          class="mx-auto"
+        />
+      </div>
+      <br />
+      <div class="flex justify-center">
+        <input
+          type="text"
+          id="input2"
+          placeholder="Masukkan angka kedua"
+          class="mx-auto text-center"
+        />
+      </div>
+      <div class="text-center">
+        Hasil:
+        <span id="hasil"></span>
+      </div>
+      <div class="flex justify-center space-x-3">
+        <button
+          onclick="tambah()"
+          class="h-10 w-20 bg-yellow-400 rounded-lg mt-11 text-center"
+        >
+          Tambah
+        </button>
+        <button
+          onclick="kurang()"
+          class="h-10 w-20 bg-yellow-400 rounded-lg mt-11 text-center"
+        >
+          Kurang
+        </button>
+      </div>
+      <div class="flex justify-center space-x-3">
+        <button onclick="kali()"
+         class="h-10 w-20 bg-yellow-400 rounded-lg mt-7 text-center">
+          Kali
+        </button>
+        <button onclick="bagi()"
+         class="h-10 w-20 bg-yellow-400 rounded-lg mt-7 text-center">
+          Bagi
+        </button>
+      </div>
+      <script>
+        function tambah() {
+          let input1 = document.getElementById("input1").value;
+          console.log(input1);
+          let convertInput1 = +input1;
+          let input2 = document.getElementById("input2").value;
+          console.log(input2);
+          let convertInput2 = +input2;
+          // Sisipkan nilai di id'Hasil'
+          let hasilTambah = convertInput1 + convertInput2;
+          document.getElementById("hasil").innerText = hasilTambah;
+        }
+
+        function kurang() {
+          let input1 = document.getElementById("input1").value;
+          console.log(input1);
+          let convertInput1 = +input1;
+          let input2 = document.getElementById("input2").value;
+          console.log(input2);
+          let convertInput2 = +input2;
+          // Sisipkan nilai di id 'hasil'
+          let hasilkurang = convertInput1 - convertInput2;
+          document.getElementById("hasil").innerText = hasilkurang;
+        }
+        function kali (){
+        let input1 = document.getElementById("input1").value; 
+        console.log(input1);
+        let convertInput1 = +input1;
+        let input2 = document.getElementById("input2").value;
+        console.log(input2);
+        let convertInput2 = +input2;
+        // Sisipkan nilai di id 'hasil'
+        let hasilkali = convertInput1*convertInput2;
+        document.getElementById('hasil').innerText = hasilkali;   
+        }
+        function bagi (){
+        let input1 = document.getElementById('input1').value;
+        console.log(input1);
+        let convertInput1 = +input1;
+        let input2 = document.getElementById("input2").value;
+        console.log(input2);
+        let convertInput2 = +input2;
+        // Sisipkan nilai di id 'hasil'
+        let hasilbagi = convertInput1/convertInput2
+        document.getElementById('hasil').innerText = hasilbagi; 
+        }
+      </script>
+    </div>
+  </body>
+</html>

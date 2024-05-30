@@ -31,7 +31,8 @@ module.exports = {
         Lobster: "Lobster",
         Dancing: "Dancing",
         Honk: "Honk",
-        Sevillana:"Sevillana", 
+        sevillana:"sevillana",
+        SevillanaStatic:"SevillanaStatic",
       },
       fontSize: {
         agakbesar: "102px",
