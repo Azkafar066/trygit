@@ -24,7 +24,7 @@ module.exports = {
         mountain: 'url("../public/mountain.jpg")',
         Cheeseburger:'url("../public/Cheeseburger.jpg")',
         RealMadridCF:'url("../public/RealMadridCF.png")',
-
+        Legocitysquare:'url("../public/Legocitysquare.jpg")',
       },
       fontFamily: {
        Honk:"Honk", 
